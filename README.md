@@ -25,7 +25,7 @@ then build the history chart using Chartisan/Charts package and send data to ren
 - search [resources/views/search.blade.php] : search template contains search form where username can be submitted to generate the histogram result<br><br>
 - twittergraph [resources/views/twittergraph.blade.php] : twittergraph template which renders histogram graph and also extends the search template within.<br><br>
 
-##API Info and consumption of endpoint
+###API Info and consumption of endpoint
 In this project Twitter API v2 endpoint is used. 
 Tweet result is obtained using the following api endpoint:
 https://developer.twitter.com/en/docs/twitter-api/tweets/timelines/api-reference/get-users-id-tweets
