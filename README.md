@@ -14,11 +14,11 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ###Controllers
 Two controllers are created 
-- SearchController [app/Http/Controllers/SearchConrtoller.php] : Handles the search for request and converts the username to user id.<br><br>
-- TwitterController [app/Http/Controllers/TwitterController.php] : Makes api call to twitter to get user tweets. Then process the data to get most hours user active on twitter. <br>
+- SearchController [app/Http/Controllers/SearchConrtoller.php] : Handles the search for request and converts the username to user id.
+- TwitterController [app/Http/Controllers/TwitterController.php] : Makes api call to twitter to get user tweets. Then process the data to get most hours user active on twitter.
 then build the history chart using Chartisan/Charts package and send data to render in view.
 
-###Views
+##Views
 
 3 Layouts are crated
 - base [resources/views/layouts/base.blade.php] : Base template which is a index page or parent page layout.<br><br>
