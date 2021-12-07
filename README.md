@@ -12,20 +12,20 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Project structure
 
-###Controllers
+### Controllers
 Two controllers are created 
 - SearchController [app/Http/Controllers/SearchConrtoller.php] : Handles the search for request and converts the username to user id.<br><br>
 - TwitterController [app/Http/Controllers/TwitterController.php] : Makes api call to twitter to get user tweets. Then process the data to get most hours user active on twitter. <br>
 then build the history chart using Chartisan/Charts package and send data to render in view.
 
-###Views
+### Views
 
 3 Layouts are crated
 - base [resources/views/layouts/base.blade.php] : Base template which is a index page or parent page layout.<br><br>
 - search [resources/views/search.blade.php] : search template contains search form where username can be submitted to generate the histogram result<br><br>
 - twittergraph [resources/views/twittergraph.blade.php] : twittergraph template which renders histogram graph and also extends the search template within.<br><br>
 
-###API Info and consumption of endpoint
+## API Info and consumption of endpoint
 In this project Twitter API v2 endpoint is used. 
 Tweet result is obtained using the following api endpoint:
 https://developer.twitter.com/en/docs/twitter-api/tweets/timelines/api-reference/get-users-id-tweets
